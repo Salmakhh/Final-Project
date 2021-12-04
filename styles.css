@@ -1,0 +1,108 @@
+*, ::before, ::after {
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+* {
+    font-family: 'Comic Neue', cursive;
+}
+.navBar {
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    border-bottom:  5px solid black;
+    border-width:1px 0;
+    list-style:none;
+    margin: 0;
+    /* 
+    margin-left: 30%;
+    margin-right: 30%;
+    */
+    padding:0;
+    text-align:center;
+    
+}
+.navBar li{
+    display:inline;
+    margin-right: 25px;
+    font-size: 1.5rem;
+}
+.logo {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin: 60px auto;
+   /* border: 1px solid black; */
+
+}
+.footerBar {
+    top: 0;
+    width: 100%;
+    border-top:  5px solid black;
+    border-width:1px 0;
+    list-style:none;
+    margin-top: 100px;
+    padding:50px 0;
+    text-align:center;
+}
+
+.footerBar li {
+    
+    margin-right: 25px;
+    font-size: 1.5rem; 
+}
+.artistPhoto {
+    width: 30%;
+    height: auto;
+}
+
+.artistBio {
+    display: inline;
+    width: 45%;
+    height: auto;
+    border: 3px solid black;
+    font-size: 1.3rem;
+    padding: 180px 50px;
+    
+    text-align: center;
+}
+.artistIntro {
+    display: flex;
+    justify-content: space-around;
+
+}
+.hCenter {
+    font-size: 2.5rem;
+    text-align: center;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 100px;
+}
+.featured {
+    width: 30%;
+    height: 40%;
+}
+
+.title {
+    display: inline;
+    width: 30%;
+    height: auto;
+    border: 3px solid black;
+   padding: 20px;
+   margin: 50px;
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: 500;
+   
+}
+
+.fPhotos, .fTitle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+   
+
