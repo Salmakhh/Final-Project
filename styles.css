@@ -162,3 +162,31 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+
+/******************* Contact page *********************************/ 
+.contactText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info {
+    width: 40%;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.b1 {
+    margin-right: 2%;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
