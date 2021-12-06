@@ -27,14 +27,7 @@
     margin-right: 25px;
     font-size: 1.5rem;
 }
-.logo {
-    width: 10%;
-    height: auto;
-    display: block;
-    margin: 60px auto;
-   /* border: 1px solid black; */
 
-}
 .footerBar {
     top: 0;
     width: 100%;
@@ -44,6 +37,7 @@
     margin-top: 100px;
     padding:50px 0;
     text-align:center;
+    font-size: 1.5rem;
 }
 
 .footerBar li {
@@ -51,6 +45,18 @@
     margin-right: 25px;
     font-size: 1.5rem; 
 }
+
+/******************* Home page *********************************/
+
+.logo {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin: 60px auto;
+   /* border: 1px solid black; */
+
+}
+
 .artistPhoto {
     width: 30%;
     height: auto;
@@ -104,5 +110,55 @@
 }
 
 
-   
+  /******************* About Me page *********************************/ 
 
+.coverAM {
+    height: 20%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutMe {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 1.8rem;
+    border: 1px solid black;
+    padding: 2%;
+    width: 75%;
+}
+.imgAM {
+    width: auto;
+    height: 300px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.lineOne {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.workAM {
+    width: 70%;
+    margin-right: 2%;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1.8rem;
+
+}
+.lineTwo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.lineThree {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
