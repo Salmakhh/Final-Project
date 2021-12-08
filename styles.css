@@ -5,9 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 * {
     font-family: 'Comic Neue', cursive;
+    background-color: cornsilk;
 }
 .navBar {
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     width: 100%;
     border-bottom:  5px solid black;
@@ -53,13 +54,18 @@
     height: auto;
     display: block;
     margin: 60px auto;
-   /* border: 1px solid black; */
 
+    /*
+ border: 1px solid black;
+ box-shadow: 0 0 10px gray;
+*/
 }
 
 .artistPhoto {
     width: 30%;
     height: auto;
+    border: 1px solid black;
+    box-shadow: 0 0 10px gray;
 }
 
 .artistBio {
@@ -87,18 +93,21 @@
 .featured {
     width: 30%;
     height: 40%;
+    box-shadow: 0 0 10px gray;
+    border: 1px solid black;
 }
 
 .title {
     display: inline;
     width: 30%;
     height: auto;
-    border: 3px solid black;
+    border: 1px solid black;
    padding: 20px;
    margin: 50px;
    text-align: center;
    font-size: 1.5rem;
    font-weight: 500;
+   box-shadow: 0 0 10px gray;
    
 }
 
@@ -118,12 +127,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
+    box-shadow: 0 0 10px gray;
+    margin-bottom: 20px;
 }
 
 .aboutMe {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     text-align: center;
     font-size: 1.8rem;
     border: 1px solid black;
@@ -135,6 +147,8 @@
     height: 300px;
     margin-right: 2%;
     margin-bottom: 2%;
+    border: 1px solid black;
+    box-shadow: 0 0 10px gray;
 }
 .lineOne {
     display: flex;
@@ -144,7 +158,7 @@
 }
 
 .workAM {
-    width: 70%;
+    width: 55%;
     margin-right: 2%;
     text-align: center;
     border: 1px solid black;
@@ -175,6 +189,7 @@
     height: 300px;
     border: 1px solid black;
     text-align: center;
+    font-size: 1.5rem;
 
 }
 
@@ -189,4 +204,62 @@
     height: 50px;
     border-radius: 20px;
     border: 1px solid black;
+    font-size: 1rem;
+    font-weight: 700;
 }
+
+
+/******************* Paintings page *********************************/
+
+.hLeft {
+    font-size: 2.5em;
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    padding: 20px;
+   
+}
+
+.gPhoto {
+    width: auto;
+    height:70px;
+    border: 1px solid black;
+
+}
+.navigation {
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+ .top {
+     display: flex;
+     justify-content: space-around;
+     margin: 50px;
+ }
+
+ .gPhotoB {
+     width: 45%;
+     height: auto;
+     padding: 40px;
+     border: 1px solid  black;
+     box-shadow: 0 0 10px gray;
+ }
+
+ .titleP {
+     width: 45%;
+     border: 1px solid black;
+     font-size: 2rem;
+     text-align: center;
+     box-shadow: 0 0 10px gray;
+ }
+
+ .gallery {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-around;
+
+ }
