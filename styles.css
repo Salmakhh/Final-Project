@@ -4,13 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 * {
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Comic Neue', sans-serif;
     background-color: cornsilk;
 }
 
 
 a:link {
-    color: black;
+    color: seagreen;
     text-decoration: none;
 }
 a:visited {
@@ -87,7 +87,7 @@ a:hover {
 
 .artistPhoto {
     width: 30%;
-    height: auto;
+    height: 30%;
     border: 1px solid black;
     box-shadow: 0 0 10px gray;
 }
@@ -98,13 +98,14 @@ a:hover {
     height: auto;
     border: 3px solid black;
     font-size: 1.3rem;
-    padding: 180px 50px;
-    
+    padding: 130px 50px;
+
     text-align: center;
 }
 .artistIntro {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
 }
 .hCenter {
@@ -165,6 +166,8 @@ a:hover {
     border: 1px solid black;
     padding: 2%;
     width: 75%;
+    display: flex;
+    justify-content: center;
 }
 .imgAM {
     width: auto;
@@ -173,6 +176,9 @@ a:hover {
     margin-bottom: 2%;
     border: 1px solid black;
     box-shadow: 0 0 10px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .lineOne {
     display: flex;
@@ -183,10 +189,12 @@ a:hover {
 
 .workAM {
     width: 55%;
+    height: 300px;
     margin-right: 2%;
     text-align: center;
     border: 1px solid black;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
+    overflow: scroll;
 
 }
 .lineTwo {
@@ -236,27 +244,32 @@ a:hover {
 /******************* Paintings & Drawings page *********************************/
 
 .hLeft {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     border: 2px solid black;
     width: 20%;
-    padding: 40px;
+    padding:auto;
    font-weight: 500;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
 }
 .hLeft2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     border: 2px solid black;
     width: 20%;
-    padding: 40px;
-   font-weight: 500;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gPhoto {
     width: 90%;
-    height: auto;
+    height:60px;
     border: 1px solid black;
-
 }
 .navigation {
     width: 75%;
@@ -264,12 +277,12 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 10px;
 }
  .top {
      display: flex;
      justify-content: space-around;
-     margin: 50px;
+     margin:70px ;
+     margin-top: 100px;
  }
 
  .gPhotoB {
@@ -294,6 +307,7 @@ a:hover {
      font-size: 1.3rem;
      padding: 10px;
      font-weight: 900;
+     border: 2px solid black;
      border-radius: 5px;
  }
 
@@ -383,15 +397,15 @@ a:hover {
     width: 75%;
 }
 .imgAM {
-    width: 20%;
-    height: 20%;
+    width: auto;
+    height: 150px;
 }
 
 .workAM {
     width: 55%;
-    height: 200px;
+    height: 180px;
     overflow: scroll;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
 }
 ::-webkit-scrollbar {
@@ -428,27 +442,18 @@ a:hover {
 }
   /*************Paintings & Drawings**************/
   .hLeft {
-    font-size: 1.5rem;
-    padding: 20px;
-   font-weight: 500;
+    font-size: 1.1rem;
+   font-weight: 700;
 }
 .hLeft2 {
-    font-size: 1.2rem;
-    text-align: center;
-    border: 2px solid black;
-    width: 20%;
-    padding: 15px;
+    font-size: 1.1rem;
    font-weight: 500;
 }
 
-.navigation {
-    width: 75%;
-    border: 2px solid black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 7px;
+.gPhoto {
+    height:40px;
 }
+
 
  .gPhotoB {
      width: 45%;
@@ -465,7 +470,8 @@ a:hover {
      font-size: 1rem;
      padding: 7px;
      font-weight: 700;
-     border-radius: 5px;
+    
+     
  }
 
 
@@ -557,15 +563,15 @@ a:hover {
     width: 75%;
 }
 .imgAM {
-    width: 20%;
-    height: 20%;
+    width: auto;
+    height: 75px;
 }
 
 .workAM {
     width: 55%;
-    height: 150px;
+    height:100px;
     overflow: scroll;
-    font-size: 1rem;
+    font-size: .7rem;
 
 }
 ::-webkit-scrollbar {
@@ -603,8 +609,7 @@ a:hover {
   /*************Paintings & Drawings**************/
   .hLeft {
     font-size: .8rem;
-    padding: 5px;
-   font-weight: 500;
+   font-weight: 700;
 }
 
 .navigation {
@@ -612,8 +617,10 @@ a:hover {
 }
 .hLeft2 {
     font-size: .7rem;
-    padding: 10px;
    font-weight: 500;
+}
+.gPhoto {
+    height:20px;
 }
 
  .gPhotoB {
